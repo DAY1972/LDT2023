@@ -6,10 +6,10 @@ I. 0_preprocessing.py
 1. Входные данные: 
 X_train.parquet, X_test.parquet, y_train.parquet
 
-2. Функционал: 
+2. Функционал:
 2.1. заполняем пропуски X_train.parquet, X_test.parquet, 
 2.2. фильтрация скользящим усреднением X_train.parquet, X_test.parquet
-2.3. стандартезация по параметрам X_train.parquet (mean, std) данных в X_train.parquet, X_test.parquet
+2.3. стандартизация по параметрам X_train.parquet (mean, std) данных в X_train.parquet, X_test.parquet
 2.4. изменение datatype для уменьшения размера выходных файлов
 
 3. Выходные данные:
